@@ -18,7 +18,16 @@ public class Bikers {
         float r1=100,r2=200,r3=150,r4=120,r5=100,avg;
         avg = (r1+r2+r3+r4+r5)/5;
         System.out.println("Average is = " + avg);
-
+        /*if (r1> avg)
+            System.out.println("Racer R1 qualified");
+        if (r2> avg)
+            System.out.println("Racer R2 qualified");
+        if (r3> avg)
+            System.out.println("Racer R3 qualified");
+        if (r4> avg)
+            System.out.println("Racer R4 qualified");
+        if (r5> avg)
+            System.out.println("Racer R5 qualified");*/
         for(int i = 0; i<4;i++){
             if(a[i]>avg)
                 System.out.println("Racer R" + (i+1) + " qualified");
