@@ -1,9 +1,4 @@
-class Box {
-    double weight;
-    double depth;
-    double length;
-    double width;
-}
+
 
 public class useClassAndObject {
     public static void main(String[] args) {
