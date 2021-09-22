@@ -1,6 +1,4 @@
-package Projects;//incomplete
-
-import Projects.Stack;
+package Projects;
 
 import java.util.Scanner;
 
@@ -13,7 +11,7 @@ public class useStack {
         Stack stack = new Stack(size);
 
         while (true){
-            System.out.println("enter 1,2,3,4 for:\n1. Push\n 2.Pop\n3.Display\n4.Exit");
+            System.out.println("Enter 1,2,3,4 for:\n1. Push\n2.Pop\n3.Display\n4.Exit");
             byte ch=scan.nextByte();
             switch (ch){
                 case 1:{
@@ -27,13 +25,15 @@ public class useStack {
                     break;
                 }
                 case 3:{
+                    stack.display();
                     break;
                 }
                 case 4:{
+                    System.exit(1);
                     break;
                 }
                 default:
-                    System.out.println("Enter valid number");
+                    System.out.println("Enter a valid number\n");
             }
         }
     }

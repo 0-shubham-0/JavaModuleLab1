@@ -26,6 +26,12 @@ public class Stack {
                         System.out.println(arr[top--]+" is Popped");
 
         }
+        public void display(){
+                System.out.println("The elements are");
+                for(int i=0;i<=top;i++){
+                        System.out.println(arr[i]);
+                }
+        }
 
         public Boolean isEmpty()
         {
