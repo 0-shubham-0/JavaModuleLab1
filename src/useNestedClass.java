@@ -14,6 +14,5 @@ public class useNestedClass {
         useNestedClass.Inner in= obj.new Inner();
         in.msg();
         useNestedClass.msg2();
-        System.out.println();
     }
 }

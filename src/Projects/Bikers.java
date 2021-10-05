@@ -1,5 +1,7 @@
+package Projects;
+
 /*
-Five Bikers Compete in a race such that they drive at
+Five Projects.Bikers Compete in a race such that they drive at
 a constant speed which may or may not be the same as
 the other. To qualify the race, the speed of a racer must
 be more than the average speed of all 5 racers. Write a

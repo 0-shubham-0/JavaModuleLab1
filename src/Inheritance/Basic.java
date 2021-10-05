@@ -1,14 +1,14 @@
 package Inheritance;
 class A{
     int i,j;
-    void showij(){
+    void show_ij(){
         System.out.println("i and j "+i+j);
     }
 }
 class B extends A{//b can access a
     int k;
 
-    void showk(){
+    void showK(){
         System.out.println("k is "+k);
     }
     void sum(){
@@ -23,12 +23,13 @@ public class Basic {
         superObj.i=10;
         superObj.j=20;
         System.out.println(superObj.i+superObj.j);
-        superObj.showij();
+        superObj.show_ij();
 
         //subOjb can access attributes of A
         subObj.i=10;
         subObj.j=20;
         subObj.k=30;
+        subObj.showK();
         subObj.sum();
     }
 }
