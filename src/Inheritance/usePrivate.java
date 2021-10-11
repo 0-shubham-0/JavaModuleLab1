@@ -19,6 +19,5 @@ public class usePrivate {
         BB obj2=new BB();
         //obj2.j=2; objects cant use private variables
         obj1.setij(2,4);
-
     }
 }
