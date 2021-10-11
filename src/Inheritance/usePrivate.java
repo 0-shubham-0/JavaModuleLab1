@@ -14,7 +14,7 @@ class BB extends AA{
 
 }
 public class usePrivate {
-    public static void main(String args[]) {
+    public static void main(String []args) {
         AA obj1=new AA();
         BB obj2=new BB();
         //obj2.j=2; objects cant use private variables
