@@ -9,16 +9,17 @@ public class useClassAndObject {
         a.weight=100;
         a.length=10;
         a.width=10;
+        Box b= new Box(a);//passing object
 
-        Box b = new Box();
+        Box c = new Box();
 
-        b.depth=10;
-        b.weight=100;
-        b.length=10;
-        b.width=10;
+        c.depth=10;
+        c.weight=100;
+        c.length=10;
+        c.width=10;
 
         double volume = a.depth*a.width*a.length;
-        double volume1 = b.depth*b.width*b.length;
+        double volume1 = c.depth*c.width*c.length;
 
         System.out.println("Volume is " + volume);
         System.out.println("Volume is " + volume1);
