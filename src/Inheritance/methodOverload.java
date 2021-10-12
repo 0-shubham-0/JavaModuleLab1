@@ -21,7 +21,7 @@ class grandchild extends child{
         System.out.println(super.uses);//calls only immediate parent
     }
 }
-public class methodOverload {
+public class methodOverload{
     public static void main(String []args){
         parent obj1=new parent();
         child obj2=new child();
