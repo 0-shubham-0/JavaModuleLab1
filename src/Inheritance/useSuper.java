@@ -1,41 +1,33 @@
 package Inheritance;
-class studentDetails{
-    String name;
-    int id;
-    private int specialid=212;
 
-    studentDetails(){
-        name="NULL";
-        id=0;
-    }
-    studentDetails(String a){
-        name=a;
-        System.out.println("Name is "+name);
-    }
-    studentDetails(String a,int b){
-        name=a;
-        id=b;
-        System.out.println("Name is "+name+" and id:"+id);
-    }
+class parent{
+    int uses=12;
     void print(){
-        System.out.println(name+" "+specialid);
+        System.out.println(uses);
     }
 }
-class studentAdd extends studentDetails{
-    String address;
-    studentAdd(String a){
-        super(a);//can only be used in constructors
-    }
-    void getSID(){
+class child extends parent{
+    int uses=11;
+    void print(){
+        System.out.println(uses);
         super.print();
     }
 }
-public class useSuper {
+class grandchild extends child{
+    int uses=2;
+    void print(){
+        System.out.println("\n"+uses);
+        super.print();//calls only immediate parent
+        System.out.println(super.uses);//calls only immediate parent
+    }
+}
+public class useSuper{
     public static void main(String []args){
-        studentDetails s1=new studentDetails("Jane");
-        studentDetails s2=new studentDetails("Doe",22);
-        s1.print();
-        studentAdd s3=new studentAdd("John");//uses super to pass name
-        s3.getSID();//uses super to print private var
+        parent obj1=new parent();
+        child obj2=new child();
+        grandchild obj3=new grandchild();
+        obj2.print();//call only child's method
+        obj1.print();//call parent's print
+        obj3.print();
     }
 }
