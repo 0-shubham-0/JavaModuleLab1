@@ -28,6 +28,6 @@ public class useSuper{
         grandchild obj3=new grandchild();
         obj2.print();//call only child's method
         obj1.print();//call parent's print
-        obj3.print();
+        obj3.print();//prints its var also immediate parent's var
     }
 }
