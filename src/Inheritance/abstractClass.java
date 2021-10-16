@@ -21,6 +21,6 @@ class square extends shape{
 public class abstractClass {
     public static void main(String []args){
         square s1=new square(4);
-        //shape s2=new shape();
+        //shape s2=new shape(); cannot instantiate since its a abstract class
     }
 }
