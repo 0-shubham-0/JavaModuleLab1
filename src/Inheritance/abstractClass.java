@@ -1,5 +1,5 @@
 package Inheritance;
-
+//makes it so that there is always a class which needs to be overridden
 abstract class shape{
     int l1,l2;
     abstract void property();//abstract method
