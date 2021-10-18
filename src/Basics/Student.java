@@ -1,3 +1,5 @@
+package Basics;
+
 class marks{
     double math;
     double chem;

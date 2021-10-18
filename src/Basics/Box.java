@@ -1,3 +1,5 @@
+package Basics;
+
 class Box {
     double weight;
     double depth;

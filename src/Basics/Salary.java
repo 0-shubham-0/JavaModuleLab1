@@ -1,3 +1,5 @@
+package Basics;
+
 //Implement a java program to calculate gross salary &
 //        net salary taking the following data.
 //        Input: empno, empname, basic

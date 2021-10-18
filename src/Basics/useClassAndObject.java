@@ -1,4 +1,4 @@
-
+package Basics;
 
 public class useClassAndObject {
     public static void main(String[] args) {

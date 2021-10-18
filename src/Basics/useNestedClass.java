@@ -1,3 +1,5 @@
+package Basics;
+
 public class useNestedClass {
     private int a=30;
     class Inner{

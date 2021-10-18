@@ -1,8 +1,8 @@
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
+package Basics;
 
-        public class ButtonExample2
+import java.awt.*;
+
+public class ButtonExample2
         {
             // creating instances of Frame class and Button class
             Frame fObj;

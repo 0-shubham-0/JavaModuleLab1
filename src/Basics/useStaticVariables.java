@@ -1,3 +1,5 @@
+package Basics;
+
 public class useStaticVariables {
     //int count=0;
     static int count=0;
