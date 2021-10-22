@@ -35,6 +35,7 @@ public class constructorOverload {
         studentDetails s1=new studentDetails("Jane");
         studentDetails s2=new studentDetails("Doe",22);
         s1.print();
+        s2.print();
         studentAdd s3=new studentAdd("John");//uses super to pass name
         s3.getSID();//uses super to print private var
     }
