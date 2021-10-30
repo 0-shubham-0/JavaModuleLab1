@@ -3,7 +3,10 @@ package Inheritance;
 class BaseStudent{
     String name;
     int roll;
+    void copy(BaseStudent a){
+        name=a.name;
 
+    }
     void displayStudent(){
         System.out.println(name+" "+roll);
     }
