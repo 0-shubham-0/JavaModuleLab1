@@ -1,4 +1,4 @@
-package Assignment;
+package exp2;
 //4. Create a class Book and
 // define a display method to display
 // book information.

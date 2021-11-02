@@ -1,4 +1,4 @@
-package Assignment;
+package exp2;
 //3. Create a Teacher class and derive Professor/Associate_Professor/Assistant_Professor class from Teacher class.
 //        Define appropriate constructor for all the classes.
 //        Also define a method to display

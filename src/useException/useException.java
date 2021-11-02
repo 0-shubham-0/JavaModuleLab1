@@ -1,4 +1,4 @@
-package Basics;
+package useException;
 
 public class useException {
     public static void main(String[] args){

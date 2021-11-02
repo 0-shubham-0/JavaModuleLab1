@@ -1,4 +1,4 @@
-package Assignment;
+package exp2;
 
 class student {
     String name,address;

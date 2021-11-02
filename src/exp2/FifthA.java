@@ -1,4 +1,4 @@
-package Assignment;
+package exp2;
 //5. A university has two types of students — graduate students and research students.
 //        The University maintains the record of name, age and programme of every student.
 //        For graduate students, additional information like percentage of marks and stream, like
